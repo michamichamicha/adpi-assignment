@@ -1,10 +1,8 @@
 export default {
     brand: 'string',
     type: 'string',
-    abc: 'number',
-    // milage: 'number',
-    // extras: 'array',
-    ob: 'object',
+    milage: 'number',
+    extras: 'array',
 }
 /*;
 

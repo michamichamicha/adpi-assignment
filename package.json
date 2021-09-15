@@ -2,13 +2,18 @@
   "name": "adpi-assignment",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "example.js",
   "dependencies": {
-    "esm": "^3.2.25"
+    "@babel/preset-env": "^7.15.6",
+    "babel-core": "^6.26.3",
+    "babel-jest": "^27.2.0",
+    "esm": "^3.2.25",
+    "jest": "^27.2.0",
+    "regenerator-runtime": "^0.13.9"
   },
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "repository": {
     "type": "git",

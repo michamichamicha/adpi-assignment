@@ -6,10 +6,11 @@ const validator = new Validator()
 validator.setSchema(cars)
 
 const validationResult = validator.validate({
-    gfdgfdsgfds: 2,
     type: 'Astra',
     brand: 'Opel',
     abc: Math.PI,
+    milage: 199999.99,
+    extras: 'none',
     ob: []
 })
 

@@ -8,6 +8,9 @@ export class Validator {
     }
 
     setSchema(schema) {
+        if (!schema || typeof schema !== 'object' || Array.isArray(schema)) {
+            throw new Error('setSchema should be passed with an object')
+        }
         this.schema = schema
     }
 
